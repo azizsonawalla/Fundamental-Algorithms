@@ -30,6 +30,7 @@
   },
   "scripts": {
     "build": "tsc && tslint --project tsconfig.json 'src/**/*.ts'",
-    "test": "mocha \"dist/test/**/*.js\" --recursive --timeout 10000 "
+    "test": "mocha \"dist/test/**/*.js\" --recursive --timeout 10000 ",
+    "solve": "node \"dist/src/solve.js\""
   }
 }
